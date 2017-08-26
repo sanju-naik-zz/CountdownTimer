@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3ADCDB61F5193160042E01E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCDB51F5193160042E01E /* AppDelegate.swift */; };
+		B3ADCDB81F5193160042E01E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCDB71F5193160042E01E /* ViewController.swift */; };
+		B3ADCDBB1F5193160042E01E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3ADCDB91F5193160042E01E /* Main.storyboard */; };
+		B3ADCDBD1F5193160042E01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3ADCDBC1F5193160042E01E /* Assets.xcassets */; };
+		B3ADCDC01F5193160042E01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3ADCDBE1F5193160042E01E /* LaunchScreen.storyboard */; };
+		B3ADCDCB1F5193160042E01E /* CountdownTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCDCA1F5193160042E01E /* CountdownTimerTests.swift */; };
+		B3ADCDD61F5193160042E01E /* CountdownTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCDD51F5193160042E01E /* CountdownTimerUITests.swift */; };
+		B3ADCDE51F5193F90042E01E /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3ADCDE41F5193F90042E01E /* TimerManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3ADCDC71F5193160042E01E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3ADCDAA1F5193160042E01E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3ADCDB11F5193160042E01E;
+			remoteInfo = CountdownTimer;
+		};
+		B3ADCDD21F5193160042E01E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3ADCDAA1F5193160042E01E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3ADCDB11F5193160042E01E;
+			remoteInfo = CountdownTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B3ADCDB21F5193160042E01E /* CountdownTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountdownTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3ADCDB51F5193160042E01E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3ADCDB71F5193160042E01E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3ADCDBA1F5193160042E01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3ADCDBC1F5193160042E01E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3ADCDBF1F5193160042E01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3ADCDC11F5193160042E01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3ADCDC61F5193160042E01E /* CountdownTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3ADCDCA1F5193160042E01E /* CountdownTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerTests.swift; sourceTree = "<group>"; };
+		B3ADCDCC1F5193160042E01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3ADCDD11F5193160042E01E /* CountdownTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3ADCDD51F5193160042E01E /* CountdownTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerUITests.swift; sourceTree = "<group>"; };
+		B3ADCDD71F5193160042E01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3ADCDE41F5193F90042E01E /* TimerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3ADCDAF1F5193160042E01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3ADCDC31F5193160042E01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3ADCDCE1F5193160042E01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3ADCDA91F5193160042E01E = {
+			isa = PBXGroup;
+			children = (
+				B3ADCDB41F5193160042E01E /* CountdownTimer */,
+				B3ADCDC91F5193160042E01E /* CountdownTimerTests */,
+				B3ADCDD41F5193160042E01E /* CountdownTimerUITests */,
+				B3ADCDB31F5193160042E01E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3ADCDB31F5193160042E01E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3ADCDB21F5193160042E01E /* CountdownTimer.app */,
+				B3ADCDC61F5193160042E01E /* CountdownTimerTests.xctest */,
+				B3ADCDD11F5193160042E01E /* CountdownTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3ADCDB41F5193160042E01E /* CountdownTimer */ = {
+			isa = PBXGroup;
+			children = (
+				B3ADCDE31F51933C0042E01E /* Timer */,
+				B3ADCDB51F5193160042E01E /* AppDelegate.swift */,
+				B3ADCDB71F5193160042E01E /* ViewController.swift */,
+				B3ADCDB91F5193160042E01E /* Main.storyboard */,
+				B3ADCDBC1F5193160042E01E /* Assets.xcassets */,
+				B3ADCDBE1F5193160042E01E /* LaunchScreen.storyboard */,
+				B3ADCDC11F5193160042E01E /* Info.plist */,
+			);
+			path = CountdownTimer;
+			sourceTree = "<group>";
+		};
+		B3ADCDC91F5193160042E01E /* CountdownTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3ADCDCA1F5193160042E01E /* CountdownTimerTests.swift */,
+				B3ADCDCC1F5193160042E01E /* Info.plist */,
+			);
+			path = CountdownTimerTests;
+			sourceTree = "<group>";
+		};
+		B3ADCDD41F5193160042E01E /* CountdownTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B3ADCDD51F5193160042E01E /* CountdownTimerUITests.swift */,
+				B3ADCDD71F5193160042E01E /* Info.plist */,
+			);
+			path = CountdownTimerUITests;
+			sourceTree = "<group>";
+		};
+		B3ADCDE31F51933C0042E01E /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				B3ADCDE41F5193F90042E01E /* TimerManager.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3ADCDB11F5193160042E01E /* CountdownTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3ADCDDA1F5193160042E01E /* Build configuration list for PBXNativeTarget "CountdownTimer" */;
+			buildPhases = (
+				B3ADCDAE1F5193160042E01E /* Sources */,
+				B3ADCDAF1F5193160042E01E /* Frameworks */,
+				B3ADCDB01F5193160042E01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CountdownTimer;
+			productName = CountdownTimer;
+			productReference = B3ADCDB21F5193160042E01E /* CountdownTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3ADCDC51F5193160042E01E /* CountdownTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3ADCDDD1F5193160042E01E /* Build configuration list for PBXNativeTarget "CountdownTimerTests" */;
+			buildPhases = (
+				B3ADCDC21F5193160042E01E /* Sources */,
+				B3ADCDC31F5193160042E01E /* Frameworks */,
+				B3ADCDC41F5193160042E01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3ADCDC81F5193160042E01E /* PBXTargetDependency */,
+			);
+			name = CountdownTimerTests;
+			productName = CountdownTimerTests;
+			productReference = B3ADCDC61F5193160042E01E /* CountdownTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B3ADCDD01F5193160042E01E /* CountdownTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3ADCDE01F5193160042E01E /* Build configuration list for PBXNativeTarget "CountdownTimerUITests" */;
+			buildPhases = (
+				B3ADCDCD1F5193160042E01E /* Sources */,
+				B3ADCDCE1F5193160042E01E /* Frameworks */,
+				B3ADCDCF1F5193160042E01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3ADCDD31F5193160042E01E /* PBXTargetDependency */,
+			);
+			name = CountdownTimerUITests;
+			productName = CountdownTimerUITests;
+			productReference = B3ADCDD11F5193160042E01E /* CountdownTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3ADCDAA1F5193160042E01E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Sanju;
+				TargetAttributes = {
+					B3ADCDB11F5193160042E01E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					B3ADCDC51F5193160042E01E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3ADCDB11F5193160042E01E;
+					};
+					B3ADCDD01F5193160042E01E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B3ADCDB11F5193160042E01E;
+					};
+				};
+			};
+			buildConfigurationList = B3ADCDAD1F5193160042E01E /* Build configuration list for PBXProject "CountdownTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3ADCDA91F5193160042E01E;
+			productRefGroup = B3ADCDB31F5193160042E01E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3ADCDB11F5193160042E01E /* CountdownTimer */,
+				B3ADCDC51F5193160042E01E /* CountdownTimerTests */,
+				B3ADCDD01F5193160042E01E /* CountdownTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3ADCDB01F5193160042E01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3ADCDC01F5193160042E01E /* LaunchScreen.storyboard in Resources */,
+				B3ADCDBD1F5193160042E01E /* Assets.xcassets in Resources */,
+				B3ADCDBB1F5193160042E01E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3ADCDC41F5193160042E01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3ADCDCF1F5193160042E01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3ADCDAE1F5193160042E01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3ADCDE51F5193F90042E01E /* TimerManager.swift in Sources */,
+				B3ADCDB81F5193160042E01E /* ViewController.swift in Sources */,
+				B3ADCDB61F5193160042E01E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3ADCDC21F5193160042E01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3ADCDCB1F5193160042E01E /* CountdownTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3ADCDCD1F5193160042E01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3ADCDD61F5193160042E01E /* CountdownTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3ADCDC81F5193160042E01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3ADCDB11F5193160042E01E /* CountdownTimer */;
+			targetProxy = B3ADCDC71F5193160042E01E /* PBXContainerItemProxy */;
+		};
+		B3ADCDD31F5193160042E01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3ADCDB11F5193160042E01E /* CountdownTimer */;
+			targetProxy = B3ADCDD21F5193160042E01E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3ADCDB91F5193160042E01E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3ADCDBA1F5193160042E01E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3ADCDBE1F5193160042E01E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3ADCDBF1F5193160042E01E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3ADCDD81F5193160042E01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3ADCDD91F5193160042E01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3ADCDDB1F5193160042E01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountdownTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanju.CountdownTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B3ADCDDC1F5193160042E01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CountdownTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanju.CountdownTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B3ADCDDE1F5193160042E01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CountdownTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanju.CountdownTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountdownTimer.app/CountdownTimer";
+			};
+			name = Debug;
+		};
+		B3ADCDDF1F5193160042E01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CountdownTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanju.CountdownTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CountdownTimer.app/CountdownTimer";
+			};
+			name = Release;
+		};
+		B3ADCDE11F5193160042E01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CountdownTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanju.CountdownTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CountdownTimer;
+			};
+			name = Debug;
+		};
+		B3ADCDE21F5193160042E01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CountdownTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sanju.CountdownTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CountdownTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3ADCDAD1F5193160042E01E /* Build configuration list for PBXProject "CountdownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3ADCDD81F5193160042E01E /* Debug */,
+				B3ADCDD91F5193160042E01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3ADCDDA1F5193160042E01E /* Build configuration list for PBXNativeTarget "CountdownTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3ADCDDB1F5193160042E01E /* Debug */,
+				B3ADCDDC1F5193160042E01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3ADCDDD1F5193160042E01E /* Build configuration list for PBXNativeTarget "CountdownTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3ADCDDE1F5193160042E01E /* Debug */,
+				B3ADCDDF1F5193160042E01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3ADCDE01F5193160042E01E /* Build configuration list for PBXNativeTarget "CountdownTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3ADCDE11F5193160042E01E /* Debug */,
+				B3ADCDE21F5193160042E01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3ADCDAA1F5193160042E01E /* Project object */;
+}
